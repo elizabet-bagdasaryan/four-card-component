@@ -1,0 +1,118 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.headline {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 18px;
+  color: #4d4f62;
+  width: 65%;
+}
+
+#our {
+  font-size: 0.9em;
+}
+#reliable {
+  font-size: 2.1em;
+}
+
+#powered {
+  font-size: 2.2em;
+  font-weight: 900;
+}
+.main-section {
+  display: flex;
+  margin: 10%;
+}
+
+.main-section img {
+  margin-left: 70%;
+}
+.first-section {
+  width: 55%;
+  -webkit-box-shadow: 6px 177px 180px 9px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 6px 177px 180px 9px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 177px 180px 9px rgba(0, 0, 0, 0.1);
+  border-top: 6px solid #1c6ea4;
+  padding: 3% 5%;
+  height: 15%;
+  margin-top: 15%;
+  border-radius: 5px;
+}
+.first-section p {
+  font-size: 0.9em;
+}
+.second-section {
+  width: 150%;
+  margin-left: 15%;
+  -webkit-box-shadow: 6px 177px 180px 9px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 6px 177px 180px 9px rgba(0, 0, 0, 0.1);
+  border-top: 6px solid #1c6ea4;
+  border-radius: 5px;
+  margin-bottom: 10%;
+  padding: 8% 18%;
+}
+
+#supervisor {
+  border-color: #44d3d2;
+}
+#team {
+  border-color: #ff637b;
+  -webkit-box-shadow: 5px 5px 15px -12px rgba(0, 0, 0, 0.17);
+  box-shadow: 5px 5px 15px -12px rgba(0, 0, 0, 0.17);
+  height: 50%;
+}
+
+#karma {
+  border-color: #fdbf00;
+  -webkit-box-shadow: 6px 177px 180px 9px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 6px 177px 180px 9px rgba(0, 0, 0, 0.1);
+}
+
+#calcu {
+  border-color: #377fd2;
+  margin-left: 230px;
+}
+
+@media (max-width: 375px) {
+  .main-section {
+    display: block;
+  }
+
+  .main-section img {
+    margin-left: 20em;
+    margin-top: 4em;
+  }
+  .headline {
+    line-height: 180%;
+  }
+  .first-section {
+    width: 90%;
+  }
+  .second-section {
+    width: 65%;
+    margin: 0;
+  }
+  .second-section div {
+    height: 10em;
+  }
+  .second-section img {
+    margin-left: 17em;
+    margin-top: 4em;
+  }
+  #calcu {
+    margin: 0;
+    height: 15em;
+  }
+  #supervisor {
+    height: 15em;
+    margin-bottom: 3em;
+  }
+  #team {
+    margin-bottom: 3em;
+  }
+  #karma {
+    margin-bottom: 3em;
+  }
+}
